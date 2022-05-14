@@ -23,5 +23,17 @@ public class ClassArVentiladorMinimo implements ICommand {
         ar.potenciaMinima();
         ar.potencia();
     }
+
+    @Override
+    public void diminuir() {
+        ar.diminuir();
+        ar.potencia();
+    }
+
+    @Override
+    public void aumentar() {
+        ar.aumentar();
+        ar.potencia();
+    }
     
 }

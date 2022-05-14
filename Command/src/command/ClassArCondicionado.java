@@ -20,10 +20,14 @@ public class ClassArCondicionado {
         System.out.println("Ar condicionado desligado");
     }
     public void diminuir(){
-        this.arPotencia-=1;
+        if(this.arPotencia > valorMinimo){
+            this.arPotencia-=1;
+        }
     }
     public void aumentar(){
-        this.arPotencia+=1;
+        if(this.arPotencia < valorMaximo){
+            this.arPotencia+=1;
+        }
     }
     public void ventilar(){
         System.out.println("Modo ventilar");

@@ -21,4 +21,10 @@ public class ClassControleRemoto {
     public void botaoPressionado(){
         this.comando.execute();
     }
+    public void botaoDiminuirPressionado(){
+        this.comando.diminuir();
+    }
+    public void botaoAumentarPressionado(){
+        this.comando.aumentar();
+    }
 }

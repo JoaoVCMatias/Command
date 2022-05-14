@@ -10,4 +10,6 @@ package command;
  */
 public interface ICommand {
     public void execute();
+    public void diminuir();
+    public void aumentar();
 }

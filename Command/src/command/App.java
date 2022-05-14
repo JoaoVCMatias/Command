@@ -20,24 +20,26 @@ public class App {
         controleAr1.botaoPressionado();
         System.out.println("---------------------------------------");
         ClassControleRemoto controleAr2 = new ClassControleRemoto();
-        controleAr1.setCommand(new ClassArPotenciaMinima(new ClassArCondicionado()));
-        controleAr1.botaoPressionado();
+        controleAr2.setCommand(new ClassArPotenciaMinima(new ClassArCondicionado()));
+        controleAr2.botaoPressionado();
         System.out.println("---------------------------------------");
         ClassControleRemoto controleAr3 = new ClassControleRemoto();
-        controleAr1.setCommand(new ClassArPotenciaMedia(new ClassArCondicionado()));
-        controleAr1.botaoPressionado();
+        controleAr3.setCommand(new ClassArPotenciaMedia(new ClassArCondicionado()));
+        controleAr3.botaoPressionado();
         System.out.println("---------------------------------------");
         ClassControleRemoto controleAr4 = new ClassControleRemoto();
-        controleAr1.setCommand(new ClassArVentiladorMedia(new ClassArCondicionado()));
-        controleAr1.botaoPressionado();
+        controleAr4.setCommand(new ClassArVentiladorMedia(new ClassArCondicionado()));
+        controleAr4.botaoPressionado();
         System.out.println("---------------------------------------");
         ClassControleRemoto controleAr5 = new ClassControleRemoto();
-        controleAr1.setCommand(new ClassArVentiladorMaximo(new ClassArCondicionado()));
-        controleAr1.botaoPressionado();
+        controleAr5.setCommand(new ClassArVentiladorMaximo(new ClassArCondicionado()));
+        controleAr5.botaoPressionado();
         System.out.println("---------------------------------------");
         ClassControleRemoto controleAr6 = new ClassControleRemoto();
-        controleAr1.setCommand(new ClassArVentiladorMinimo(new ClassArCondicionado()));
-        controleAr1.botaoPressionado();
+        controleAr6.setCommand(new ClassArVentiladorMinimo(new ClassArCondicionado()));
+        controleAr6.botaoPressionado();
+        System.out.println("---------------------------------------");
+        
     }
     
 }
